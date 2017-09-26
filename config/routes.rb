@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'picture/index'
+  #get 'picture/index'
 
-  root to: 'home#picture'
+  root to: 'picture#index'
 
  # get '*path', controller: 'application', action: 'render_404'
 
